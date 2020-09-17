@@ -1,0 +1,15 @@
+.button {
+  height: 40px;
+  width: 100%;
+  border-radius: 50px !important;
+  background-color: var(--primary) !important;
+  margin: 20px 0 !important;
+  color: var(--white) !important;
+  /* letter-spacing: 5px !important; */
+}
+
+.circularProgress {
+  color: var(--white) !important;
+  height: 25px !important;
+  width: 25px !important;
+}

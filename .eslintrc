@@ -1,0 +1,48 @@
+{
+  "extends": [
+    "react-app",
+    "airbnb",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react",
+    "standard"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "jsx-a11y", "prettier", "import"],
+  "rules": {
+    "semi": 0,
+    "import/prefer-default-export": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": false
+      }
+    ]
+  },
+  "settings": {
+    "module/resolver": {
+      "node": {
+        "paths": ["src"],
+        "alias": {
+          "_assets": "./src/assets",
+          "_components": "./src/components",
+          "_atoms": "./src/components/atoms",
+          "_molecules": "./src/components/molecules",
+          "_organisms": "./src/components/organisms",
+          "_navigations": "./src/navigations",
+          "_pages": "./src/pages",
+          "_services": "./src/services",
+          "_styles": "./src/styles",
+          "_utils": "./src/utils"
+        }
+      }
+    }
+  }
+}

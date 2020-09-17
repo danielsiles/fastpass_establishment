@@ -1,0 +1,99 @@
+.authContainer {
+  height: 100vh;
+  /* width: 100vw; */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+}
+
+.logo {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 36px;
+  margin: 10px;
+}
+
+.loginContainer {
+  background-color: var(--white);
+  display: flex;
+  /* flex: 1; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  width: 90%;
+  min-height: 500px;
+  /* height: 70%; */
+  /* padding: 10px; */
+}
+
+.authImageContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 36px;
+  margin: 10px;
+}
+
+.authFormDivider {
+  height: 90% !important;
+}
+
+.authFormContainer {
+  /* height: 500px; */
+  /* width: 70vw; */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.authFormTitleDetail {
+  border: 2px solid var(--primary);
+  border-radius: 2px;
+  width: 50px;
+  height: 0px;
+  align-self: flex-start;
+}
+
+.authFormTitle {
+  margin: 5px 0 30px 0;
+  letter-spacing: 1px !important;
+}
+
+.authFormForgotPassword {
+  font-size: 12px;
+  color: var(--gray-dark);
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .authImageContainer {
+    display: none;
+  }
+  .authFormDivider {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .authContainer {
+    background-color: var(--white);
+  }
+  .authFormContainer {
+    padding: 0px;
+  }
+  .logo {
+    color: var(--primary);
+  }
+}

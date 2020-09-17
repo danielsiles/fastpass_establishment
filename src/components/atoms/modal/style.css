@@ -1,0 +1,15 @@
+.modalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+
+.modalContainer > .modalContent {
+  background-color: var(--white);
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  padding: 10px;
+}

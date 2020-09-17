@@ -1,0 +1,8 @@
+.cards {
+  overflow-x: auto;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: calc(100vw - 40px - 75px);
+  /* border: 1px solid black; */
+}

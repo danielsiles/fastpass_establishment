@@ -1,0 +1,30 @@
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.callNextButton {
+  width: 200px;
+  /* margin-left: 40px; */
+  margin: 10px 0 !important;
+}
+
+.cards::-webkit-scrollbar {
+  display: none;
+}
+
+.cardContainer {
+  width: 515px !important;
+}
+
+.ticketActionsContainer {
+  margin-bottom: 10px;
+}
+
+.addTicketFab {
+  position: fixed !important;
+  right: 20px;
+  bottom: 20px;
+  background-color: var(--primary) !important;
+}

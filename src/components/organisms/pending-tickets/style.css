@@ -1,0 +1,23 @@
+.pendingTicketCardContainer {
+  max-width: 500px;
+}
+
+.pendingTicketContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.serviceWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.ticketCount {
+  font-weight: bold;
+  font-size: 16px;
+  /* margin-left: 10px; */
+}

@@ -1,0 +1,25 @@
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.actionIconButton {
+  color: var(--primary);
+}
+
+.activeChip {
+  background-color: var(--green) !important;
+  color: var(--white) !important;
+}
+
+.activeChipIcon {
+  color: var(--white) !important;
+}
+
+.addServiceFab {
+  position: fixed !important;
+  right: 20px;
+  bottom: 20px;
+  background-color: var(--primary) !important;
+}

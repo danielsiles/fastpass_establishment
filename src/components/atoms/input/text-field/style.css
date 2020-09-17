@@ -1,0 +1,9 @@
+.input {
+  margin: 5px 0 !important;
+  width: 100%;
+}
+
+.input > div {
+  border-radius: 50px;
+  width: 100%;
+}

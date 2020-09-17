@@ -1,0 +1,36 @@
+.appBar {
+  background-color: var(--primary) !important;
+}
+
+.appBarContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.appBarBranchSelectorWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoutButton {
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.branchSelector {
+  color: var(--white) !important;
+  min-width: 200px;
+}
+
+.branchSelector::after {
+  border-bottom-color: var(--white) !important;
+}
